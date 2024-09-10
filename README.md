@@ -13,3 +13,5 @@ docker run -v ./<src-dest>:/mdast_cli/app-src/ --env APP_NAME=<rustore-app-name>
 docker build -t=mdast .
 docker run -v ./src:/mdast_cli/app-src/ --env APP_NAME=ru.ozon.app.android mdast
 ```
+
+![Screenshot](assets/usage-sample.png)
